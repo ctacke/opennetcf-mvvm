@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>com.opennetcf.xamarin.mvvm</id>
-        <version>1.0.17136.0</version>
+        <version>1.0.17137.0</version>
         <title>OpenNETCF MVVM and Navigation framework for Xamarin Forms</title>
         <authors>Chris Tacke</authors>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -16,11 +16,6 @@
     </dependencies>
     </metadata>
   <files>
-    <file src=".\bin\PCL\Release\OpenNETCF.Xamarin.MVVM.dll" target="lib/Xamarin.iOS10" />
-
-    <file src=".\bin\PCL\Release\OpenNETCF.Xamarin.MVVM.dll" target="lib/MonoTouch10" />
-
-    <file src=".\bin\PCL\Release\OpenNETCF.Xamarin.MVVM.dll" target="lib/MonoAndroid10" />
-    
+    <file src=".\bin\PCL\Release\OpenNETCF.Xamarin.MVVM.dll" target="lib\portable-net45+netcore45+wpa81+wp8" />
   </files>
 </package>
